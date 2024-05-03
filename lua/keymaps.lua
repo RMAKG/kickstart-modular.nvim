@@ -46,3 +46,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 -- vim: ts=2 sts=2 sw=2 et
+
+vim.keymap.set('i', 'ö', '<Esc>')
+vim.keymap.set('n', 'ö', '<Esc>')
+vim.keymap.set('v', 'ö', '<Esc>')
+vim.keymap.set('n', 'ä', ':')
